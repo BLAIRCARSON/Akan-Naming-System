@@ -40,10 +40,10 @@ function getName(){
 	
 	var birthDay=day.getDay();
 	if(male.checked==true){
-	   alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + maleAkanNames[birthDay])
+	   alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + maleAkanNames[birthDay])
 	}
 	else if(female.checked==true){
-	   alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + femaleAkanNames[birthDay])
+	   alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + femaleAkanNames[birthDay])
 
 	}
 

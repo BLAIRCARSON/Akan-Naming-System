@@ -38,7 +38,58 @@
         </div>
     </div>  
     <div class="container">
-        
+        <form>
+            <div class="form-group " onsubmit="event.preventDefault()">
+              <label for="Year">Year Of Birth</label>
+              <input type="text" class="form-control" id="year" placeholder="enter the year">
+            </div>
+            <div class="form-group">
+              <label for="Month">Month of birth</label>
+              <select class="form-control" id="month">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="Date">Date Of Birth</label>
+              <select class="form-control" id="date">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <div>
+					<label for="radio" class="radio-inline">
+					<input
+					type="radio"
+					value="male"
+				    name="gender"
+					id="male"
+					required
+					/>
+					Male </label
+					><br />
+					<label for="radio" class="radio-inline">
+					<input
+					type="radio"
+					value="male"
+					name="gender"
+					id="female"
+					required
+					/>
+					Female
+					</label>
+				  </div>
+            </div>
+          </form>
+          <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
+            <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">Reset</button>        
     </div>  
 </body>
 <script src="script.js"></script>
